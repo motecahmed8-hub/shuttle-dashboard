@@ -31,7 +31,7 @@ from sklearn.ensemble import RandomForestClassifier
 # -----------------------------
 # Configuration
 # -----------------------------
-DATA_PATH = Path("/mnt/data/projectAI_improved.csv")
+DATA_PATH = Path("projectAI_improved.csv")
 MODEL_DIR = Path("./models")
 PLOTS_DIR = Path("./plots")
 for d in (MODEL_DIR, PLOTS_DIR):
